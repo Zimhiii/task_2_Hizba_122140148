@@ -43,11 +43,6 @@ form {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.info h2 {
-  margin: 0;
-  font-weight: 400;
-}
-
 /* Selector untuk input dan select */
 input[type="text"],
 input[type="email"],
@@ -72,11 +67,15 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+.info h2 {
+  margin: 0;
+  font-weight: 400;
+}
+
 input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-/* Selector untuk tabel */
 table {
   border-collapse: collapse;
   width: 50%;
